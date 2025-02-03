@@ -1,0 +1,12 @@
+u app hello chicago1 chicago2 chicago3
+not_an_chicago
+bye chicago
+main
+
+-rf
+1
+many chicagos chicagochicagoich chicagoin
+chicagofjajjaf ajfkjaf
+
+int main for test
+1

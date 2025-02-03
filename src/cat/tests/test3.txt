@@ -1,0 +1,56 @@
+flag: --number-nonblank$
+2  _______________________________________________________$
+3  This is a test for the cat program.$
+$
+4  Test text:$
+$
+$
+5  -b (--number-nonblank): Number the non-blank output lines, starting at 1.$
+$
+6  -e (-E):                Display non-printing characters (see the -v option), and display a dollar sign (`$') at the end of each line.$
+$
+7  -n (--number):          Number the output lines, starting at 1.   $
+8      $
+9  -s (--squeeze-blank):   Squeeze multiple adjacent empty lines, causing the output to be single spaced.$
+10  first line.$
+$
+$
+$
+11  second line.$
+$
+12  With empty lines between.$
+$
+13  -t (-T)                 Display non-printing characters (see the -v option), and display tab characters as `^I'.$
+$
+14          Text with TABULATION$
+$
+$
+15  Well done!  %                                                                                                                                                                                             
+harethin@oa-h4 cat % ./cat_i -E test_files/test_3.txt
+flag: E$
+_______________________________________________________$
+This is a test for the cat program.$
+$
+Test text:$
+$
+$
+-b (--number-nonblank): Number the non-blank output lines, starting at 1.$
+$
+-e (-E):                Display non-printing characters (see the -v option), and display a dollar sign (`$') at the end of each line.$
+$
+-n (--number):          Number the output lines, starting at 1.   $
+    $
+-s (--squeeze-blank):   Squeeze multiple adjacent empty lines, causing the output to be single spaced.$
+first line.$
+$
+$
+second line.$
+$
+With empty lines between.$
+$
+-t (-T) 		                Display non-printing characters (see the -v option), and display tab characters as `^I'.$
+$
+        Text with TABULATION$
+$
+$
+Well done!  $

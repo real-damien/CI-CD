@@ -1,0 +1,27 @@
+     1	_______________________________________________________
+     2	This is a test for the cat program.
+
+     3	Test text:
+
+     4	-b      Number the non-blank output lines, starting at 1.
+
+     5	-e      Display non-printing characters (see the -v option), and display a dollar sign (`$') at the end of each line.
+
+     6	-n      Number the output lines, starting at 1.   
+     7	    
+     8	-s      Squeeze multiple adjacent empty lines, causing the output to be single spaced.
+     9	first line.
+
+
+    10	second line.
+
+    11	With empty lines between.
+
+    12	-t      Display non-printing characters (see the -v option), and display tab characters as `^I'.
+
+    13		Text with TABULATION
+
+    14	_________________________________________________________
+    15	It should display this text in the terminal when executed.
+
+    16	Well done!  
